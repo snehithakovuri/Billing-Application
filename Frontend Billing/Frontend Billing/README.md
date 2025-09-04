@@ -43,7 +43,7 @@ src/
 package.json
 Setup Instructions
 1. Clone the Repository
-git clone https://github.com/spurthibojja/Billing-Application.git
+git clone https://github.com/snehithakovuri/Billing-Application
 cd Billing-Application
 2. Backend Setup
 Requirements:
@@ -52,7 +52,7 @@ Java 17
 Maven
 Run backend:
 
-cd "Backend Billing excelR"
+cd "Backend Billing"
 mvn spring-boot:run
 Backend will run at: http://localhost:8080
 
@@ -63,13 +63,10 @@ Node.js
 npm
 Install dependencies & run:
 
-cd "Frontend Billing excelR"
+cd "Frontend Billing"
 npm install
 npm start
 Frontend will run at: http://localhost:3000
 
 Features
 ✔️ User registration & login with JWT authentication ✔️ Role-based authorization (Admin, Accountant, Customer) ✔️ Customer, Product, Invoice & Payment management ✔️ Secure REST API built with Spring Boot ✔️ Responsive frontend built with React.js ✔️ Axios integration for backend communication
-
-📎 GitHub Repository
-👉 Billing Application GitHub Link
