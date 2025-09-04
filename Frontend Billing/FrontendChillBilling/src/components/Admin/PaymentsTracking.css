@@ -1,0 +1,160 @@
+
+
+.payment-tracking-container h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Summary Info */
+.summary-info {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.summary-info span{
+      font-size: 20px;
+
+}
+
+/* Top actions */
+.top-actions {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+  margin-left: 585px;
+  gap: 10px;
+}
+
+/* Search bar */
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.search-bar input {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  outline: none;
+}
+
+.search-btn {
+  font-size: x-large;
+  background: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 100%;
+}
+
+/* Filter section */
+.filter-container {
+  position: relative;
+}
+
+.filter-btn {
+  font-size: 16px;
+  background: none;
+  border: 1px solid #ddd;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.filter-options {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border-radius: 5px;
+  z-index: 100;
+}
+
+/* Add payment button */
+.add-payment-btn {
+  background: #fff;
+  border: 2px solid #000;
+  padding: 8px 18px;
+  cursor: pointer;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: ease all 0.3s;
+}
+
+.add-payment-btn:hover{
+      background-color: #000;
+    color:#fff
+}
+
+/* Table styling */
+.table-wrapper {
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  overflow-x: auto;
+}
+
+.payment-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.payment-table th,
+.payment-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.payment-table th {
+  background: #f0f4f8;
+}
+
+.payment-table .success {
+  color: green;
+  font-weight: bold;
+}
+
+.payment-table .pending {
+  color: orange;
+  font-weight: bold;
+}
+
+.payment-table .failed {
+  color: red;
+  font-weight: bold;
+}
+
+.no-payments {
+  text-align: center;
+  font-size: 16px;
+  color: #555;
+  padding: 20px;
+}
+
+/* Pagination */
+.pagination {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.pagination button {
+  margin: 0 4px;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  background: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.pagination button.active {
+  background: #0056b3;
+  color: white;
+}

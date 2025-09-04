@@ -1,0 +1,215 @@
+.invoice-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ebe5e5;
+  padding: 5px 70px 5px 100px;
+  margin-bottom: 10px;
+}
+
+.invoice-navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.invoice-logo {
+  height: 80px;
+  width: 70px;
+}
+
+.invoice-navbar-right .invoice-back-btn {
+  background: black;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.invoice-back-btn:hover{
+ background-color: #0056b3;
+}
+
+
+.invoice-container {
+  padding: 30px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.invoice-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.invoice-dates{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.invoice-dates>div{
+    font-size: 16px !important;
+}
+
+.invoice-info div {
+  font-size: 18px;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.status-circle {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.customer-details {
+  margin-bottom: 20px;
+}
+
+.customer-details h3 {
+  margin-bottom: 10px;
+}
+
+.customer-info {
+  margin-left: 40px; /* Indentation for customer details */
+}
+
+.customer-info p {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.products-table {
+  margin-bottom: 20px;
+}
+
+.products-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.products-table th,
+.products-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.products-table th {
+  background-color: #f4f4f4;
+}
+
+.grand-total {
+    margin-top: 10px;
+    margin-right: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.payment-details {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.payment-details p {
+  margin: 5px 0;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.pay-now-btn{
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  color: white;
+    background-color: #000;
+    transition: ease all 0.3s;
+}
+
+.pay-now-btn:hover {
+      background-color: #0056b3;
+
+}
+
+.download-btn {
+  background-color: #007bff;
+}
+
+/* Modal overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+.modal-input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-btn {
+  border: none;
+  padding: 10px 15px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.cancel-btn {
+  background-color: #ebe5e5;
+  color: #000;
+}
+
+.proceed-btn {
+  background-color: #000;
+  color: #fff;
+}
+
+.proceed-btn:hover {
+  background-color: #0056b3;
+}

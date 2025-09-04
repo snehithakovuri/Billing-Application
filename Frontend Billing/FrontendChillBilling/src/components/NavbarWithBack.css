@@ -1,0 +1,36 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ebe5e5;
+  padding: 5px 70px 5px 100px;
+  margin-bottom: 10px;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 80px;
+  width: 70px;
+}
+
+.brand-name {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.navbar-right .back-btn {
+  background: black;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.back-btn:hover{
+ background-color: #0056b3;
+}

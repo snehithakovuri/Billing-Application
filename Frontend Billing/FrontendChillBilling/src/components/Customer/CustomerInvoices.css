@@ -1,0 +1,119 @@
+/* CustomerInvoice.css */
+.customer-invoices-container {
+  padding: 20px;
+}
+
+.customer-invoices-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Top Actions */
+.customer-invoices-top-actions {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 30px;
+}
+
+/* Filter Button */
+.customer-filter-btn {
+  font-size: 16px;
+  background: #ffd6d6 !important;
+  border: 1px solid #aaa !important;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.customer-invoices-table-wrapper {
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  margin-right: 10px;
+  overflow-x: auto;
+}
+
+.customer-invoices-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.customer-invoices-table th,
+.customer-invoices-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.customer-invoices-table th {
+  background: #f0f4f8;
+}
+
+.customer-invoices-table .paid {
+  color: green;
+  font-weight: bold;
+}
+
+.customer-invoices-table .unpaid {
+  color: orange;
+  font-weight: bold;
+}
+
+.customer-invoices-table .partial {
+  color: yellow;
+  font-weight: bold;
+}
+
+.customer-invoices-table .overdue {
+  color: red;
+  font-weight: bold;
+}
+
+/* Open Button Styles */
+.view-btn {
+  background: #e6f0ff;
+  color: #0066cc;
+  border: 1px solid #99c2ff;
+  padding: 5px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+/* Payments Button Styles */
+.payments-btn {
+  background: #ffe6e6;
+  color: #cc0000;
+  border: 1px solid #ff9999;
+  padding: 5px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Pagination */
+.customer-pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.customer-pagination button {
+  padding: 5px 10px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.customer-pagination .active {
+  background-color: #0066cc;
+  color: #fff;
+}
+
+/* No invoices found text */
+.customer-no-invoices {
+  text-align: center;
+  font-size: 18px;
+  padding: 20px;
+  color: #555;
+}

@@ -1,0 +1,163 @@
+
+
+h2 {
+  margin-bottom: 15px;
+}
+
+.table-wrapper {
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 10px;
+  overflow-x: auto;
+}
+
+.customer-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.customer-table th,
+.customer-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.customer-table th {
+  background: #f0f4f8;
+}
+
+.status-active {
+  color: green;
+  font-weight: bold;
+}
+
+.status-inactive {
+  color: red;
+  font-weight: bold;
+}
+
+.no-data {
+  text-align: center;
+  font-size: 16px;
+  padding: 20px;
+  color: #555;
+}
+
+/* Top actions */
+.top-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+/* Search bar */
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  outline: none;
+}
+
+.search-btn {
+  font-size: large;
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+/* Filter */
+.filter-container {
+  position: relative;
+}
+
+.filter-btn {
+  background: #ffd6d6 !important;
+  border: 1px solid #aaa !important;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.filter-options {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border-radius: 5px;
+  z-index: 100;
+}
+
+/* Add Customer */
+.add-customer-btn {
+  background: white;
+  color: black;
+  border: 2px solid black;
+  padding: 8px 20px;
+  cursor: pointer;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: ease all 0.3s;
+}
+
+.add-customer-btn:hover{
+  background-color: #000;
+  color: #fff;
+}
+
+/* Pagination */
+.pagination {
+  margin-top: 15px;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  background: white;
+  cursor: pointer;
+}
+
+.pagination button.active {
+  background: #1888a3;
+  color: white;
+  border: none;
+}
+
+.page-text {
+  margin-right: 8px;
+  font-weight: 500;
+}
+
+/* Action buttons */
+.edit-btn {
+  background: #e6f0ff;
+  color: #0066cc;
+  border: 1px solid #99c2ff;
+  padding: 5px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.delete-btn {
+  background: #ffe6e6;
+  color: #cc0000;
+  border: 1px solid #ff9999;
+  padding: 5px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}

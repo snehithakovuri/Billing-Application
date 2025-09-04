@@ -1,0 +1,140 @@
+/* Dashboard Layout */
+.dashboard-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ebe5e5;
+  padding: 5px 70px 5px 100px;
+}
+
+.dashboard-header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  color: #444;
+}
+
+.user-avatar {
+  border-radius: 50%;
+  background: #d8dbde;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 8px;
+}
+
+.home-btn,
+.logout-btn {
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.home-btn {
+  background: #fff;
+  border: 2px solid #ccc;
+  padding: 8px 24px;
+  margin: 0 8px;
+}
+
+.logout-btn {
+  background: #222;
+  color: #fff;
+  padding: 6px 22px;
+  border: none;
+}
+
+.dashboard-main {
+  display: flex;
+  flex: 1;
+  min-height: 0;
+}
+
+.dashboard-sidebar {
+  position: fixed;
+  top: 90px; /* header height */
+  width: 260px;
+  background: #fff;
+  border-right: 2px solid #dedede;
+  flex-shrink: 0;
+  height: calc(100vh - 60px);
+  overflow-y: auto;
+}
+
+.sidebar-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-item {
+  border-bottom: 1px solid #ebebeb;
+  font-weight: 500;
+  border-left: 5px solid transparent;
+  background: #fff;
+}
+
+.sidebar-item.active {
+  background: #eaf7fc;
+  border-left: 5px solid #1888a3;
+  font-weight: 700;
+}
+
+.sidebar-link {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  padding: 18px 25px;
+}
+
+.sidebar-link.active {
+  color: #1888a3;
+}
+
+.dashboard-content {
+  margin-left: 260px;
+  background: #f5f7fa;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 20px;
+  display: block;
+  height: calc(100vh - 90px);
+  box-sizing: border-box;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.app-logo {
+  height: 80px;
+  margin-right: 70px;
+}
+
+.user-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

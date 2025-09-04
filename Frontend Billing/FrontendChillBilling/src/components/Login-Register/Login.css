@@ -1,0 +1,106 @@
+/* Full page background */
+.login-page {
+  height: 100vh; /* Full viewport */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #1e90ff, #00c6ff);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Form container */
+.form-container {
+  background: #fff;
+  padding: 1.5rem 2rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 420px;
+
+  height: 75vh;                 /* fixed 75% height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;      /* center form inside */
+}
+
+/* Title */
+.form-title {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+/* Form */
+.login-form {
+  flex: 1;
+  display: grid;
+  grid-template-rows: repeat(5, auto); /* 2 fields + forgot + button + link */
+  gap: 10px;
+}
+
+/* Input */
+.form-input {
+  width: 100%;
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  transition: border 0.25s ease, box-shadow 0.25s ease;
+}
+.form-input:focus {
+  outline: none;
+  border-color: #000;                 
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Forgot password */
+.options {
+  text-align: right;
+}
+.forgot {
+  font-size: 0.85rem;
+  text-decoration: none;
+  color: #044c94;
+}
+
+/* Button */
+.login-btn {
+  width: 100%;
+  padding: 8px;
+  background: #044c94;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.login-btn:hover {
+  background: #0f74d1;
+}
+
+/* Success message */
+.success-message {
+  text-align: center;
+  font-size: 0.85rem;
+  color: #2e7d32;
+  background: #d1f7d6;
+  padding: 6px;
+  border-radius: 6px;
+}
+
+/* Create account */
+.create-account {
+  font-size: 0.85rem;
+  text-align: center;
+  margin-top: 5px;
+}
+.create-account a {
+  color: #044c94;
+  font-weight: 600;
+  text-decoration: none;
+}

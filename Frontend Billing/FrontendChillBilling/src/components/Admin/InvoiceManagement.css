@@ -1,0 +1,169 @@
+
+
+
+.table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.invoice-table {
+  width: 100%;
+  min-width: 1000px; /* Or whatever minimum width you want */
+  border-collapse: collapse;
+}
+
+.invoice-table th,
+.invoice-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.invoice-table th {
+  background: #f0f4f8;
+}
+
+.invoice-table .paid {
+  color: green;
+  font-weight: bold;
+}
+
+.invoice-table .unpaid {
+  color: orange;
+  font-weight: bold;
+}
+
+.invoice-table .partial {
+  color: yellow;
+  font-weight: bold;
+}
+
+.invoice-table .overdue {
+  color: red;
+  font-weight: bold;
+}
+
+.no-invoices {
+  text-align: center;
+  font-size: 18px;
+  padding: 20px;
+  color: #555;
+}
+
+/* Top actions (filter, add invoice) */
+.top-actions {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+  margin-left: 585px;
+  gap: 10px;
+}
+
+
+/* Filter dropdown */
+.filter-container {
+  position: relative;
+}
+
+.filter-btn {
+    font-size: 16px;
+  background: #ffd6d6 !important;
+  border: 1px solid #aaa !important;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.filter-options {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border-radius: 5px;
+  z-index: 100;
+}
+
+/* Add Invoice button */
+.add-invoice-btn {
+  background: white;
+  color: black;
+  border: 2px solid black;
+  padding: 8px 20px;
+  cursor: pointer;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: ease all 0.3s;
+}
+
+.add-invoice-btn:hover{
+  background: #000;
+  color: #fff;
+}
+
+/* Action buttons */
+.edit-btn {
+  background: #e6f0ff;
+  color: #0066cc;
+  border: 1px solid #99c2ff;
+  padding: 5px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.edit-btn:disabled {
+  pointer-events: none;
+  opacity: 1;
+  background-color: #ebe5e5;
+  border: 1px solid #000;
+  color: #000;
+}
+
+.delete-btn {
+  background: #ffe6e6;
+  color: #cc0000;
+  border: 1px solid #ff9999;
+  padding: 5px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.notify-btn {
+  background: #fff3cd;
+  color: #ff0000d8;
+  border: 1px solid #ff000058;
+  padding: 5px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-left: 8px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  outline: none;
+}
+
+.search-btn {
+    font-size: x-large;
+  border: none;
+  border-radius: 100%;
+  cursor: pointer;
+  background: none;
+}

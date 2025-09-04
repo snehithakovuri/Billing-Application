@@ -1,0 +1,54 @@
+/* InvoicePayments.css */
+.invoice-payments-container {
+  padding: 20px;
+}
+
+.invoice-payments-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Payments Table */
+.payments-table-wrapper {
+  width: 100%;
+}
+
+.payments-table {
+  width: 100%;
+  table-layout: auto; /* Allows the table to adjust columns dynamically */
+  border-collapse: collapse;
+}
+
+.payments-table th,
+.payments-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+  word-wrap: break-word; /* Ensures content wraps inside the cell */
+}
+
+.payments-table th {
+  background: #f0f4f8;
+}
+
+/* Success, Failed, Pending Status Styles */
+.payments-table .success {
+  color: green;
+  font-weight: bold;
+}
+
+.payments-table .failed {
+  color: red;
+  font-weight: bold;
+}
+
+.payments-table .pending {
+  color: orange;
+  font-weight: bold;
+}
+
+.no-payments {
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+}

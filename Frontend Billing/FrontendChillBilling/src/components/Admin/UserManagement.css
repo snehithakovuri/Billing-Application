@@ -1,0 +1,151 @@
+
+
+.table-wrapper {
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  margin-right: 10px;
+  overflow-x: auto;
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.user-table th,
+.user-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.user-table th {
+  background: #f0f4f8;
+}
+
+.user-table .active {
+  color: green;
+  font-weight: bold;
+}
+
+.active {
+    background: none;
+    border: none;
+    font-size: 16px;
+}
+.pagination{
+    margin-top: 10px;
+}
+.pageText{
+    margin-right: 10px;
+}
+
+.user-table .inactive {
+  color: red;
+  font-weight: bold;
+}
+
+.no-users {
+  text-align: center;
+  font-size: 18px;
+  padding: 20px;
+  color: #555;
+}
+
+/* Top actions (search, filter, add user) */
+.top-actions {
+    width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+  margin-left: 530px !important;
+  gap: 10px;
+}
+
+/* Search bar */
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  outline: none;
+}
+
+.search-btn {
+    font-size: x-large;
+  border: none;
+  border-radius: 100%;
+  cursor: pointer;
+  background: none;
+}
+
+/* Filter dropdown */
+.filter-container {
+  position: relative;
+}
+
+.filter-btn {
+    font-size: 16px;
+  background: #ffd6d6 !important;
+  border: 1px solid #aaa !important;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.filter-options {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border-radius: 5px;
+  z-index: 100;
+}
+
+/* Add User button */
+.add-user-btn {
+  background: white;
+  color: black;
+  border: 2px solid black;
+  padding: 8px 20px;
+  cursor: pointer;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: ease all 0.3s;
+}
+
+.add-user-btn:hover{
+  background: #000;
+  color: #fff;
+}
+
+/* Action buttons */
+.edit-btn {
+  background: #e6f0ff;
+  color: #0066cc;
+  border: 1px solid #99c2ff;
+  padding: 5px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.delete-btn {
+  background: #ffe6e6;
+  color: #cc0000;
+  border: 1px solid #ff9999;
+  padding: 5px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}

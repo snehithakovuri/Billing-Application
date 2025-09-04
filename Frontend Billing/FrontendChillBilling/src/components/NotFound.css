@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.notfound-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  padding: 50px;
+}
+
+.notfound-dog {
+  height: 300px;
+  animation: dogBounce 5s infinite ease-in-out;
+}
+
+.notfound-title {
+    margin-top: 10px;
+}
+
+
+.notfound-btn {
+    margin-top: 20px;
+  display: inline-block;
+  padding: 10px 20px;
+  border:none;
+  background: #000;
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+  border-radius: 50px;
+  transition: transform 0.3s, background 0.3s;
+  cursor: pointer;
+}
+
+.notfound-btn:hover {
+  background: #0056b3;
+}
+
+@keyframes dogBounce {
+  0%, 100% {
+    transform: translateY(0px) rotate(-2deg);
+  }
+  25% {
+    transform: translateY(-15px) rotate(2deg);
+  }
+  50% {
+    transform: translateY(0px) rotate(-2deg);
+  }
+  75% {
+    transform: translateY(-8px) rotate(2deg);
+  }
+}
